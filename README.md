@@ -8,9 +8,32 @@ We cannot really do something about this.
 But we can provide some sort of documentation which outlines the most important tools and how to use them efficiently in your own project without thinking too much about them.
 
 ## Operating System
+The general discussion is always about Linux vs. Windows vs. MacOS.
+In our experience Linux seems to be the best candidate.
+With nearly every distribution coding and installing tools can be done without problems.
+On Windows developing with tools not developed by Microsoft is a pain in the ass.
+We do not have much experience with MacOS.
+
+Choosing a Linux distribution is a matter of taste.
+But we recommend one of the following.
+- Ubuntu
+- Debian
+- Arch
+- Pop!_OS
+- Gentoo for learning skills
+
+### Virtual Machines and Docker
+Sometimes it is not feasible to really install a new operating system.
+If you already use a certain development environment you do not want to change or if you are working on multiple projects with different needs at once then it may seem appropriate to use an alternative.
+For special hardware one could choose an emulator but one should try to work with the given system.
+We can use Docker containers or virtual machines (maybe build by Vagrant).
+
 ### Shell
-### Virtual Machines
-### Docker
+- bash
+- fish
+- ion
+- xonsh
+- ipython
 
 ## Text Editor
 ### Sublime Text
@@ -58,6 +81,8 @@ standard hooks
 #### Issues
 #### Projects
 #### Wikis
+
+## C++ Package Manager
 
 ## Code Utilities
 ### clang-format
@@ -107,3 +132,6 @@ Multiple Project Templates?
 Starting from Scratch?
 One-person-project vs small-group-project vs big-group-project vs what-the-hell-projects?
 ### Working on existing projects
+
+## presentations
+### jupyter notebook
