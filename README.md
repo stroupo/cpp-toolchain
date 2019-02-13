@@ -8,32 +8,49 @@ We cannot really do something about this.
 But we can provide some sort of documentation which outlines the most important tools and how to use them efficiently in your own project without thinking too much about them.
 
 ## Operating System
-The general discussion is always about Linux vs. Windows vs. MacOS.
-In our experience Linux seems to be the best candidate.
-With nearly every distribution coding and installing tools can be done without problems.
-On Windows developing with tools not developed by Microsoft is a pain in the ass.
-We do not have much experience with MacOS.
 
-Choosing a Linux distribution is a matter of taste.
+**Recommendation:** Use a Linux distribution.
+
+**Explanation:**
+The operating system is the most basic part of the development environment and is used in every single stage of a software project.
+Hence, it should support the development workflow in such a way that the programmer should not realize its existence.
+Therefore an ideal operating system for development would fulfill the following conditions.
+
+- lightweight (older hardware should be capable of running this system)
+- optimized for the hardware it is used on
+- fast installation to new hardware
+- fast booting and shutdown
+- short response times (user should not wait)
+- efficient interaction and communication with user (for example via a terminal through keyboard)
+- capable of graphical output (humans are more attracted to nice looking designs)
+- fast internet browsing for research
+- fast installation of new packages and tools from modern repositories
+- easily upgradeable without being forced to
+- good defaults so no real configuration is needed
+- compatibility to all development tools
+- easy to learn for newcomers
+- open source system / providing ways to use open source software
+- free to use
+
+In reality there is no operating system which fulfills all these conditions.
+As a consequence we look for the best subset.
+In our experience any Linux distribution seems to be a really good candidate.
+Most Linux distributions are lightweight, easy to install, fast to boot and shutdown and free to use.
+With nearly every distribution coding and installing tools can be done without problems.
+Upgrading a Linux distribution can be done manually.
+Choosing a specific Linux distribution is a matter of taste.
 But we recommend one of the following.
 - Ubuntu
-- Debian
 - Arch
 - Pop!_OS
-- Gentoo for learning skills
-
-### Virtual Machines and Docker
-Sometimes it is not feasible to really install a new operating system.
-If you already use a certain development environment you do not want to change or if you are working on multiple projects with different needs at once then it may seem appropriate to use an alternative.
-For special hardware one could choose an emulator but one should try to work with the given system.
-We can use Docker containers or virtual machines (maybe build by Vagrant).
 
 ### Shell
 - bash
 - fish
 - ion
 - xonsh
-- ipython
+
+- trans-shell
 
 ## Text Editor
 ### Sublime Text
@@ -132,6 +149,11 @@ Multiple Project Templates?
 Starting from Scratch?
 One-person-project vs small-group-project vs big-group-project vs what-the-hell-projects?
 ### Working on existing projects
+### Virtual Machines and Docker
+Sometimes it is not feasible to really install a new operating system.
+If you already use a certain development environment you do not want to change or if you are working on multiple projects with different needs at once then it may seem appropriate to use an alternative.
+For special hardware one could choose an emulator but one should try to work with the given system.
+We can use Docker containers or virtual machines (maybe build by Vagrant).
 
 ## presentations
 ### jupyter notebook
