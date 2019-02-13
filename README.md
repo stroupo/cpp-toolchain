@@ -44,13 +44,37 @@ But we recommend one of the following.
 - Arch
 - Pop!_OS
 
-### Shell
-- bash
-- fish
-- ion
-- xonsh
+## Shell
 
-- trans-shell
+**Recommendation:**
+Use a modern and efficient shell, like `fish`, `elvish`, `ion`, `xonsh`, or try to adhere to the standard with `bash` or `zsh`.
+
+**Explanation:**
+The shell is one of the most frequently used applications while developing.
+It is a user interface to access the services of an operating system and therefore the only possibility for a user besides the GUI to communicate with the operating system.
+Because of that the shell usage has to be highly optimized such that it not intervenes with the thought process or the actual development workflow.
+There are some resulting conditions a shell should fulfill.
+- lightweight and fast to startup
+- multiple instances
+- easy scripting with easy syntax
+- ease to learn for newcomers
+- features that support navigation and search
+- short response times
+- good history tracking and usage
+- easy configuration
+- good defaults so no configuration is needed
+- high availability on different systems
+- independent of the operating system
+- good handling of environment variables
+
+Again, there is no shell which fulfills every condition.
+Our suggestion is to think about modern alternatives.
+- `fish`: easy to install, learn, use and script with support for all systems
+- `elvish`: efficient with good features for history and navigation
+- `xonsh`: superset of python and currently in development
+- `ion`: really efficient
+
+But if you really want to have high availability of your shell then you should stick to `bash`, `zsh` or `dash`.
 
 ## Text Editor
 ### Sublime Text
@@ -154,6 +178,10 @@ Sometimes it is not feasible to really install a new operating system.
 If you already use a certain development environment you do not want to change or if you are working on multiple projects with different needs at once then it may seem appropriate to use an alternative.
 For special hardware one could choose an emulator but one should try to work with the given system.
 We can use Docker containers or virtual machines (maybe build by Vagrant).
+
+## Dictionaries
+- trans-shell
+- dict.cc
 
 ## presentations
 ### jupyter notebook
