@@ -77,10 +77,58 @@ Our suggestion is to think about modern alternatives.
 But if you really want to have high availability of your shell then you should stick to `bash`, `zsh` or `dash`.
 
 ## Text Editor
+
+**Recommendation:**
+Use `Sublime Text`, `Atom` or `Visual Studio Code` as your main general-purpose graphical text editor with your custom configurations and snippets.
+Use simple and standard command-line editors like `vim` or `emacs` for editing configuration files in place if there is only a command-line available.
+
+**Explanation:**
+As a software developer your major work will have to do with source code.
+In general one uses a text editor to display code to work on it.
+Because of this the text editor has to be highly optimized like in the case of the shell.
+- lightweight and fast (multiple instances)
+- really efficient user interaction via keyboard and shortcuts (programmer has to work with the keyboard anyway)
+- project handling (working on different projects at the same time)
+- good interaction with shell (shell access should be fast)
+- highly customizable through configurations and packages
+- good defaults such that configuration is not really needed
+- easy and fast package installation process
+- simple and attractive design
+- easy to learn for newcomers
+- integrated build systems when needed
+
 ### Sublime Text
-#### Packages
+#### Configuration and Packages
 ### Atom
-### Others
+### Visual Studio Code
+### Vim
+### Emacs
+
+## Version Control System
+
+**Recommendation:**
+Use `git` as your version control system.
+
+**Explanation:**
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+Therefore a version control system is versatile alternative to the plain old backup process which makes it indispensable while working on the code for a project.
+`git` is widely used and represent the standard.
+
+### Git
+#### Initialization
+After installing `git` make sure to set the user name and mail address.
+```bash
+    git config --global user.name "$USER"
+    git config --global user.email "$EMAIL"
+```
+Additionally, you should set the command-line editor as the commit message editor when using git from command-line.
+```bash
+    git config --global core.editor "$EDITOR"
+```
+
+#### Commit Messages
+#### GitFlow and Variants
+#### Hooks
 
 ## C++ Compiler
 ### Language standard
@@ -105,15 +153,6 @@ But if you really want to have high availability of your shell then you should s
 ### CMake
 ### Meson
 ### Others
-
-## Version Control Systems
-### Git
-#### Initialization
-user name and mail
-core editor
-standard hooks
-#### Hooks
-#### Workflow - Gitflow
 
 ## Git Server
 ### Github
