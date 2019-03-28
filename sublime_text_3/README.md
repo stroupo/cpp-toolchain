@@ -80,6 +80,7 @@ The following packages will make your workflow much more efficient.
 - MarkdownPreview
 - Origami
 - Project Manager
+- SideBarEnhancements
 - Theme - Elementary
 
 ## Keybindings and Settings

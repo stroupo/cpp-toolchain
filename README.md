@@ -1,5 +1,4 @@
 # C++ Toolchain
-
 C++ is a complicated and big language.
 Its backwards compatibility on the one hand and modern features on the other hand make it difficult to find a good starting point for writing your own code.
 This becomes even worse if we think about additional tools like `CMake` or `git` which clearly optimize the complete process of developing but introduce a tremendous penalty in the learning process because most of these tools cannot be not be added in an intuitive way to the development workflow if one has never used them.
@@ -8,7 +7,6 @@ We cannot really do something about this.
 But we can provide some sort of documentation which outlines the most important tools and how to use them efficiently in your own project without thinking too much about them.
 
 ## Operating System
-
 **Recommendation:** Use a Linux distribution.
 
 **Explanation:**
@@ -40,12 +38,10 @@ With nearly every distribution coding and installing tools can be done without p
 Upgrading a Linux distribution can be done manually.
 Choosing a specific Linux distribution is a matter of taste.
 But we recommend one of the following.
-- Ubuntu
-- Arch
-- Pop!_OS
+- Ubuntu/Debian-based (Ubuntu, Debian, Mint)
+- Arch-based (Arch, Manjaro)
 
 ## Shell
-
 **Recommendation:**
 Use a modern and efficient shell, like `fish`, `elvish`, `ion`, `xonsh`, or try to adhere to the standard with `bash` or `zsh`.
 
@@ -76,36 +72,7 @@ Our suggestion is to think about modern alternatives.
 
 But if you really want to have high availability of your shell then you should stick to `bash`, `zsh` or `dash`.
 
-## Text Editor
-
-**Recommendation:**
-Use `Sublime Text`, `Atom` or `Visual Studio Code` as your main general-purpose graphical text editor with your custom configurations and snippets.
-Use simple and standard command-line editors like `vim` or `emacs` for editing configuration files in place if there is only a command-line available.
-
-**Explanation:**
-As a software developer your major work will have to do with source code.
-In general one uses a text editor to display code to work on it.
-Because of this the text editor has to be highly optimized like in the case of the shell.
-- lightweight and fast (multiple instances)
-- really efficient user interaction via keyboard and shortcuts (programmer has to work with the keyboard anyway)
-- project handling (working on different projects at the same time)
-- good interaction with shell (shell access should be fast)
-- highly customizable through configurations and packages
-- good defaults such that configuration is not really needed
-- easy and fast package installation process
-- simple and attractive design
-- easy to learn for newcomers
-- integrated build systems when needed
-
-### Sublime Text
-#### Configuration and Packages
-### Atom
-### Visual Studio Code
-### Vim
-### Emacs
-
 ## Version Control System
-
 **Recommendation:**
 Use `git` as your version control system.
 
@@ -125,6 +92,27 @@ Additionally, you should set the command-line editor as the commit message edito
 ```bash
     git config --global core.editor "$EDITOR"
 ```
+
+## Text Editor
+**Recommendation:**
+Use `Sublime Text`, `Atom` or `Visual Studio Code` as your main general-purpose graphical text editor with your custom configurations and snippets.
+Use simple and standard command-line editors like `vim` or `emacs` for editing configuration files in place if there is only a command-line available.
+
+**Explanation:**
+As a software developer your major work will have to do with source code.
+In general one uses a text editor to display code to work on it.
+Because of this the text editor has to be highly optimized like in the case of the shell.
+- lightweight and fast (multiple instances)
+- really efficient user interaction via keyboard and shortcuts (programmer has to work with the keyboard anyway)
+- project handling (working on different projects at the same time)
+- good interaction with shell (shell access should be fast)
+- highly customizable through configurations and packages
+- good defaults such that configuration is not really needed
+- easy and fast package installation process
+- simple and attractive design
+- easy to learn for newcomers
+- integrated build systems when needed
+- useful for different languages
 
 #### Commit Messages
 #### GitFlow and Variants
